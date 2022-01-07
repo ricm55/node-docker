@@ -1,4 +1,4 @@
-Wname: CI to Docker Hub
+name: CI to Docker Hub
 
 # Controls when the workflow will run when there is an update in the master 
 on:
