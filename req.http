@@ -1,0 +1,10 @@
+POST http://localhost:8000/notes HTTP/1.1
+content-type: application/json
+
+{
+    "msg":"testing"
+}
+
+###
+
+GET http://localhost:8000/foo HTTP/1.1
