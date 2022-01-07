@@ -1,4 +1,4 @@
-# Workflow that can push my image in dockerhub to every push in the directory
+# Workflow that can push my image into docker hub to every push in the directory
 
 name: CI to Docker Hub
 
