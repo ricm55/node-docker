@@ -5,9 +5,8 @@ name: CI to Docker Hub
 # Controls when the workflow will run when there is an update in the master 
 on:
   push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
+    tags:
+      - "v*.*.*"
 
 # define my jobs
 jobs:
